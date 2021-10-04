@@ -9,29 +9,35 @@
         <title>The Hagman</title>
     </head>
     <body>
-        <div class="game">
-            <div class="panneau">
-                <h1>The Hangman</h1>
+        <main>
+            <div class="zoneHangman">
+                <div class="post">
+                    <h1 class="title">The Hangman</h1>
+                    <div class="img">
+                        <img id="hangman"></img>
+                        <p id="guess" class="guess">_ _ _ _ _ _</p>
+                    </div>
+                </div>
             </div>
-            <div class="img">
-                <img id="hangman"></img>
-                <p id="guess">_ _ _ _ _ _</p>
-            </div>
-            <div class="playground"> 
+            <div class="zoneKeyboard">
+                <div class="planck">
+                    <div class="playground">
+                    <div class="letter"> 
+                        <h4>letter</h4>
+                        <input type="text" maxlength="1" id="letter" class="input">
+                        <button id="letterBtn">Try</button>
+                    </div>
+                    <div class="word"> 
+                        <h4>word</h4>
+                        <input type="text" id="word" class="input">
+                        <button id="wordBtn">Try</button>
+                    </div>
+                </div>
+                </div>
             </div>
             
-            <div class="letter"> 
-                <h4>letter</h4>
-                <input type="text" maxlength="1" id="letter" class="input">
-                <button id="letterBtn">Try</button>
-            </div>
-            <div class="word"> 
-                <h4>word</h4>
-                <input type="text" id="word" class="input">
-                <button id="wordBtn">Try</button>
-            </div>
-        </div>
-        <script src="./assets/js/script.js" defer></script>
+            <script src="./assets/js/script.js" defer></script>
+        </main>
     </body>
     <footer>
         <ul>
@@ -40,6 +46,8 @@
             <li>Losson Arnaud</li>
             <li>|</li>
             <li>CRL-Woods-5-33</li>
+            <li>|</li>
+            <li>Desing : TheMonkeyBoy974</li>
         </ul>
     </footer>
 </html>

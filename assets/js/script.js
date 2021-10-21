@@ -9,7 +9,7 @@ const hangs = [
 ];
 
 const words = [
-    "instrument","car","computer","developper","junior","becode","academy","keyboard","keywords","mouse","webcam","coding","elepahnt","phone","headset","meeting","dashboard","translator","javascript","sandman","challenge","introduction","stack","design","style","index","upgrade","space","factory","videogame","store","epicness",
+    "instrument","car","computer","developper","junior","becode","academy","keyboard","keywords","mouse","webcam","coding","elephant","phone","headset","meeting","dashboard","translator","javascript","sandman","challenge","introduction","stack","design","style","index","upgrade","space","factory","videogame","store","epicness",
 ];
 
 let gameOver = false;
